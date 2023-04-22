@@ -1,3 +1,4 @@
+#1
 import random
 
 def rand(random_number1 = random.randint(0, 125), random_number2 = random.randint(0, 125),
@@ -9,7 +10,7 @@ def rand(random_number1 = random.randint(0, 125), random_number2 = random.randin
     print(random_number1,random_number2,'Завершилась первая задача','Вторая задача', sep = '\n')
 rand()
 
-
+#2
 def rand2(random_number1 = random.randint(0, 900), random_number2 = random.randint(0, 900), a: int = 135,
          b:int = -135,
          sep = '') ->None:
@@ -24,6 +25,7 @@ def rand2(random_number1 = random.randint(0, 900), random_number2 = random.randi
         print(random_number1, random_number2, 'Завершилась вторая задача','Началась третья',sep = '\n')
 rand2()
 
+#3
 def rand3(random_number1 = random.randint(1, 12),
           sep = '') ->None:
     if  random_number1 == 12 or random_number1 == 1 or random_number1 ==2:
@@ -38,6 +40,7 @@ def rand3(random_number1 = random.randint(1, 12),
         print(random_number1, 'Осень','Завершилась третья','Началась четвертая',sep = '\n')
 rand3()
 
+#4
 def rand4(rn1 = random.randint(-9999, 9999),rn2 = random.randint(-9999, 9999),
           rn3 = random.randint(-9999, 9999),rn4 = random.randint(-9999, 9999),
           sep = '') ->None:
@@ -47,6 +50,7 @@ def rand4(rn1 = random.randint(-9999, 9999),rn2 = random.randint(-9999, 9999),
         print(rn1,rn2,rn3,rn4,'N','Завершилась четвертая','Началась пятая',sep = '\n')
 rand4()
 
+#5
 def rand5(rn1 = random.randint(-9999, 9999), rn2 = random.randint(-9999, 9999),
           rn3 = random.randint(-9999, 9999),rn4 = random.randint(-9999, 9999),
           rn5 = random.randint(-9999, 9999),
@@ -76,6 +80,7 @@ def rand5(rn1 = random.randint(-9999, 9999), rn2 = random.randint(-9999, 9999),
         print(rn1, rn2, rn3, rn4,rn5, 'Количество положительных = ', pol,'Шестая задача', sep ='\n')
 rand5()
 
+#6
 def rand6(let: int = random.randint(0, 9999), mes: int = random.randint(0, 9999),
           d = 29, sep = '') ->None:
         print('Лет =', let, 'Месяцев =', mes, 'В месяце 29 дней, Количество дней =', let * 12 + mes * d)
