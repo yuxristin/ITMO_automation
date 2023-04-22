@@ -76,7 +76,7 @@ def rand5(rn1 = random.randint(-9999, 9999), rn2 = random.randint(-9999, 9999),
         print(rn1, rn2, rn3, rn4,rn5, 'Количество положительных = ', pol,'Шестая задача', sep ='\n')
 rand5()
 
-def rand6(let: int = random.randint(0, 100), mes: int = random.randint(0, 9999),
+def rand6(let: int = random.randint(0, 9999), mes: int = random.randint(0, 9999),
           d = 29, sep = '') ->None:
-        print(let * 12 + mes * d)
+        print('Лет =', let, 'Месяцев =', mes, 'В месяце 29 дней, Количество дней =', let * 12 + mes * d)
 rand6()
