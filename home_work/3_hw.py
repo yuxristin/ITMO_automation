@@ -27,13 +27,13 @@ rand2()
 def rand3(random_number1 = random.randint(1, 12),
           sep = '') ->None:
     if  random_number1 == 12 or random_number1 == 1 or random_number1 ==2:
-        print('Зима')
+        print('Зима','Завершилась третья','Началась четвертая',sep = '\n')
 
-    elif random_number1 == 3 or random_number1 == 4 or random_number1 == 5
-        print('Весна')
+    elif random_number1 == 3 or random_number1 == 4 or random_number1 == 5:
+        print('Весна','Завершилась третья','Началась четвертая',sep = '\n')
 
-    elif random_number1 == 6 or random_number1 == 7 or random_number1 == 8
-        print('Лето')
+    elif random_number1 == 6 or random_number1 == 7 or random_number1 == 8:
+        print('Лето','Завершилась третья','Началась четвертая',sep = '\n')
     else:
-        print(random_number1, 'Осень','Началась четвертая',sep = '\n')
-rand2()
+        print(random_number1, 'Осень','Завершилась третья','Началась четвертая',sep = '\n')
+rand3()
