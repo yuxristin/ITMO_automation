@@ -85,3 +85,5 @@ def rand6(let: int = random.randint(0, 9999), mes: int = random.randint(0, 9999)
           d = 29, sep = '') ->None:
         print('Лет =', let, 'Месяцев =', mes, 'В месяце 29 дней, Количество дней =', let * 12 + mes * d)
 rand6()
+
+
