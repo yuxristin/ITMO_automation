@@ -11,3 +11,15 @@ print(B().y)
 
 b = B()
 print(b.y)
+
+
+
+textbox = button('textbox'),
+textbox2 = button('checkbox'),
+textbox3 = button('radio-button'),
+textbox4 = button('webtables'),
+textbox5 = button('links'),
+textbox6 = button('broken'),
+textbox7 = button('upload-download'),
+textbox8 = button('upload-download'),
+textbox8 = button('dynamic-properties')

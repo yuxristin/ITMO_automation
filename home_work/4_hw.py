@@ -1,4 +1,6 @@
 #1
+from typing import Tuple
+
 
 class Rectangle:
     # Это класс Rectangle
@@ -74,29 +76,21 @@ print('Deleniye =', Znach.division())
 print('Vichitanie =', Znach.subtraction())
 
 #3
-
+spisok = [textbox, textbox2]
 class button:
 
-    def __init__(self, textbox = None, checkbox = None,
-                 radiobutton = None, webtables = None, buttons = None, links = None,
-                 broken = None, uploaddownload = None, dynamicprop = None):
-        self.textbox = textbox
-        self.checkbox = checkbox
-        self.radiobutton = radiobutton
-        self.webtables = webtables
-        self.buttons = buttons
-        self.links = links
-        self.broken = broken
-        self.uploaddownload = uploaddownload
-        self.dynamicprop = dynamicprop
+    #type = 'Кнопка'
+
+    def __init__(self, text, loc='', type='Кнопка' ):
+        self.text = text
+        self.loc = loc
+        self.type = type
 
     def click(self):
-       return 'Клик по кнопке - {}'.format(self.textbox)
+       return f'Клик по кнопке {self.text}'
 
-textbox = button('textbox', 'button#textbox')
-checkbox = button('checkbox ', '1', 'button#checkbox')
-radiobutton = button('radiobutton ', '1', 'button#radiobutton')
+textbox = button('textbox'),
+textbox2 = button('checkbox')
 
-print(textbox.click())
-print(checkbox.click())
-print(radiobutton.click())
+for elem in spisok:
+    print('1-element =', elem.click())
