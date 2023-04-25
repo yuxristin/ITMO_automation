@@ -76,8 +76,7 @@ print('Deleniye =', Znach.division())
 print('Vichitanie =', Znach.subtraction())
 
 #3
-spisok = [textbox, textbox2]
-class button:
+class Button:         #Название класса всегда с большой буквы!!
 
     #type = 'Кнопка'
 
@@ -89,8 +88,10 @@ class button:
     def click(self):
        return f'Клик по кнопке {self.text}'
 
-textbox = button('textbox'),
-textbox2 = button('checkbox')
+buttons = ['Text Box', 'Check Box', 'Radio Button', 'Web Tables', 'Buttons', 'Links', 'Broken Links - images', 'Upload and Download', 'Dinamic Properties']
 
-for elem in spisok:
-    print('1-element =', elem.click())
+for elem in buttons:
+  button = Button(elem)     # создание экземпляра класса
+  print(button.click())     # вызываем метод click
+
+
