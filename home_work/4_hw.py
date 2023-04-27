@@ -95,3 +95,17 @@ for elem in buttons:
   print(button.click())     # вызываем метод click
 
 
+class car:
+    def __init__(self, year, color, type):
+        self.year = year
+        self.color = color
+        self.type = type
+
+        car1 = car('2000', r10, 'golf')
+
+        def type_new(self, t_new):
+            self.type = t_new
+
+a = car('2001', 'C13', 'SEDAN')
+a.type_new('334')
+    print()
